@@ -1,0 +1,2356 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2005-05-29T15:00:00">
+  ................. File info ..................
+  <HEAD>
+    <Version>1.0.0.1</Version>
+    <TableName>Index</TableName>
+  </HEAD>
+
+  ................. Phone families .................
+  ... SortOrder defines the order in which Phone Families will be shown on the screen ...
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Capture Images</TableName>
+    <FileName>__CaptureImages.xml</FileName>
+    <SortOrder>0</SortOrder>
+  </PhoneFamilyTable>
+ 
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>All</Regions>
+    <TableName>Acer</TableName>
+    <FileName>__Acer.xml</FileName>
+    <SortOrder>100</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>USA</Regions>
+    <Operators>Aio</Operators>
+    <TableName>Aio</TableName>
+    <FileName>__Aio.xml</FileName>
+    <SortOrder>110</SortOrder>
+    <SortOrder Region="USA" Operator="Aio">1</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+	<Regions>UFED,!Israel,!GSM,All</Regions>
+	<Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Airtyme</TableName>
+    <FileName>__Airtyme.xml</FileName>
+    <SortOrder>120</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Alcatel</TableName>
+    <FileName>__AlcatelGSM.xml</FileName>
+    <SortOrder>130</SortOrder>
+  </PhoneFamilyTable>
+
+    <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+	<Regions>All</Regions>
+    <TableName>Amazon</TableName>
+    <FileName>__Amazon.xml</FileName>
+    <SortOrder>135</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Amoi</TableName>
+    <FileName>__Amoi.xml</FileName>
+    <SortOrder>140</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Apple</TableName>
+    <FileName>__Apple.xml</FileName>
+    <SortOrder>150</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions id="100">!Israel,!USA,!Canada,All</Regions>
+    <TableName>AnyDATA</TableName>
+    <FileName>__AnyDATA.xml</FileName>
+    <SortOrder>160</SortOrder>
+  </PhoneFamilyTable>
+
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,All</Regions>
+    <TableName>Texet</TableName>
+    <FileName>__Texet.xml</FileName>
+    <SortOrder>165</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>Archos</TableName>
+    <FileName>__Archos.xml</FileName>
+    <SortOrder>175</SortOrder>
+  </PhoneFamilyTable>
+
+   <PhoneFamilyTable>
+	<Operators>!Docomo,!JapanesePhones,All</Operators>
+	<Regions>!SA,!Japan,!NZ,!China,!Australia,!Canada,!USA,All</Regions>
+    <TableName>Ark</TableName>
+    <FileName>__Ark.xml</FileName>
+    <SortOrder>185</SortOrder>
+   </PhoneFamilyTable>    
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Asus</TableName>
+    <FileName>__Asus.xml</FileName>
+    <SortOrder>200</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>AT&amp;T (smartphones)</TableName>
+    <FileName>__HTC_Cingular.xml</FileName>
+    <SortOrder>300</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>AU</TableName>
+    <FileName>__AU.xml</FileName>
+    <SortOrder Operator="Japan">2</SortOrder>
+    <SortOrder>350</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+	<Operators>JapanesePhones</Operators>
+    <TableName>AU</TableName>
+    <FileName>__AU.xml</FileName>
+    <SortOrder>352</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Casio</TableName>
+    <FileName>__AU_Casio.xml</FileName>
+    <SortOrder>360</SortOrder>
+    <SortOrder Operator="Docomo">21</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Apple</TableName>
+    <FileName>__AU_Apple.xml</FileName>
+    <SortOrder>362</SortOrder>
+    <SortOrder Operator="Docomo">16</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Fujitsu</TableName>
+    <FileName>__AU_Fujitsu.xml</FileName>
+    <SortOrder>363</SortOrder>
+    <SortOrder Operator="Docomo">24</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Hitachi</TableName>
+    <FileName>__AU_Hitachi.xml</FileName>
+    <SortOrder>366</SortOrder>
+    <SortOrder Operator="Docomo">28</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - HTC</TableName>
+    <FileName>__AU_HTC.xml</FileName>
+    <SortOrder>369</SortOrder>
+    <SortOrder Operator="Docomo">23</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Kyocera</TableName>
+    <FileName>__AU_Kyocera.xml</FileName>
+    <SortOrder>372</SortOrder>
+    <SortOrder Operator="Docomo">17</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - LG</TableName>
+    <FileName>__AU_LG.xml</FileName>
+    <SortOrder>375</SortOrder>
+    <SortOrder Operator="Docomo">27</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Motorola</TableName>
+    <FileName>__AU_Motorola.xml</FileName>
+    <SortOrder>377</SortOrder>
+    <SortOrder Operator="Docomo">25</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Panasonic</TableName>
+    <FileName>__AU_Panasonic.xml</FileName>
+    <SortOrder>379</SortOrder>
+    <SortOrder Operator="Docomo">30</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Pantech</TableName>
+    <FileName>__AU_Pantech.xml</FileName>
+    <SortOrder>381</SortOrder>
+    <SortOrder Operator="Docomo">22</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Samsung</TableName>
+    <FileName>__AU_Samsung.xml</FileName>
+    <SortOrder>383</SortOrder>
+    <SortOrder Operator="Docomo">26</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Sanyo</TableName>
+    <FileName>__AU_Sanyo.xml</FileName>
+    <SortOrder>385</SortOrder>
+    <SortOrder Operator="Docomo">29</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Sharp</TableName>
+    <FileName>__AU_Sharp.xml</FileName>
+    <SortOrder>387</SortOrder>
+    <SortOrder Operator="Docomo">18</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - SonyEricsson</TableName>
+    <FileName>__AU_SonyEricsson.xml</FileName>
+    <SortOrder>390</SortOrder>
+    <SortOrder Operator="Docomo">20</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>AU - Toshiba</TableName>
+    <FileName>__AU_Toshiba.xml</FileName>
+    <SortOrder>393</SortOrder>
+    <SortOrder Operator="Docomo">19</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>Audiovox/UTStarcom/PCD</TableName>
+    <FileName>__Audiovox.xml</FileName>
+    <SortOrder>400</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>GSM</Regions>
+    <Operators>AVEA</Operators>
+    <TableName>AVEA</TableName>
+    <FileName>__AVEA.xml</FileName>
+    <SortOrder>450</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>China,GSM</Regions>
+    <TableName>BIFER</TableName>
+    <FileName>__BIFER.xml</FileName>
+    <SortOrder>475</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>GSM</Regions>
+    <TableName>Beeline</TableName>
+    <FileName>__Beeline.xml</FileName>
+    <SortOrder>490</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>BlackBerry CDMA</TableName>
+    <FileName>__BlackberryCDMA.xml</FileName>
+    <SortOrder>500</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>BlackBerry GSM</TableName>
+    <FileName>__BlackberryGSM.xml</FileName>
+    <SortOrder>525</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>BLU</TableName>
+    <FileName>__BLU.xml</FileName>
+    <SortOrder>530</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>Cal Comp</TableName>
+    <FileName>__CalComp.xml</FileName>
+    <SortOrder>550</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>Casio</TableName>
+    <FileName>__Casio.xml</FileName>
+    <SortOrder>560</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>CAT</TableName>
+    <FileName>__CAT.xml</FileName>
+    <SortOrder>562</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Changhong</TableName>
+    <FileName>__Changhong.xml</FileName>
+    <SortOrder>564</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    has write capabilities like Alcatel
+    <Regions>UFED</Regions>
+    <TableName>Chinese phones</TableName>
+    <FileName>__MTK.xml</FileName>
+    <SortOrder>566</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    has write capabilities like Alcatel
+    <Regions>UFED</Regions>
+    <TableName>Chinese Android phones</TableName>
+    <FileName>__MTK_Android.xml</FileName>
+    <SortOrder>567</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,!GSM,All</Regions>
+    <TableName>Comodo</TableName>
+    <FileName>__Comodo.xml</FileName>
+    <SortOrder>568</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>All</Regions>
+    <TableName>Coolpad</TableName>
+    <FileName>__Coolpad.xml</FileName>
+    <SortOrder>569</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,All</Operators>
+    <TableName>Daxian</TableName>
+    <FileName>__Daxian.xml</FileName>
+    <SortOrder>570</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,All</Regions>
+    <TableName>Dell</TableName>
+    <FileName>__Dell.xml</FileName>
+    <SortOrder>571</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>Dopod</TableName>
+    <FileName>__Dopod.xml</FileName>
+    <SortOrder>575</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,All</Regions>
+    <TableName>Doro</TableName>
+    <FileName>__Doro.xml</FileName>
+    <SortOrder>580</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Emobile</TableName>
+    <FileName>__Emobile.xml</FileName>
+    <SortOrder Operator="Japan">3</SortOrder>
+    <SortOrder>588</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+	<Operators>JapanesePhones</Operators>
+    <TableName>Emobile</TableName>
+    <FileName>__Emobile.xml</FileName>
+    <SortOrder>589</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>Emobile - DELL</TableName>
+    <FileName>__Emobile_DELL.xml</FileName>
+    <SortOrder>590</SortOrder>
+    <SortOrder Operator="Docomo">47</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>Emobile - Fujitsu</TableName>
+    <FileName>__Emobile_Fujitsu.xml</FileName>
+    <SortOrder>593</SortOrder>
+    <SortOrder Operator="Docomo">49</SortOrder>
+  </PhoneFamilyTable>
+    
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>Emobile - HTC</TableName>
+    <FileName>__Emobile_HTC.xml</FileName>
+    <SortOrder>595</SortOrder>
+    <SortOrder Operator="Docomo">50</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>Emobile - Huawei</TableName>
+    <FileName>__Emobile_Huawei.xml</FileName>
+    <SortOrder>598</SortOrder>
+    <SortOrder Operator="Docomo">51</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>Emobile - LG</TableName>
+    <FileName>__Emobile_LG.xml</FileName>
+    <SortOrder>601</SortOrder>
+    <SortOrder Operator="Docomo">52</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>Emobile - SonyEricsson</TableName>
+    <FileName>__Emobile_SonyEricsson.xml</FileName>
+    <SortOrder>604</SortOrder>
+    <SortOrder Operator="Docomo">53</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>Emobile - Toshiba</TableName>
+    <FileName>__Emobile_Toshiba.xml</FileName>
+    <SortOrder>606</SortOrder>
+    <SortOrder Operator="Docomo">54</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!SA,!Japan,!NZ,!China,!Australia,!Israel,!USA,!Canada,All</Regions>
+    <TableName>Explay</TableName>
+    <FileName>__Explay.xml</FileName>
+    <SortOrder>607</SortOrder>
+  </PhoneFamilyTable>
+
+ <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!SA,!Japan,!NZ,!China,!Australia,!USA,!Canada,All</Regions>
+    <TableName>Fly</TableName>
+    <FileName>__Fly.xml</FileName>
+    <SortOrder>608</SortOrder>
+  </PhoneFamilyTable>  
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>Garmin</TableName>
+    <FileName>__Garmin.xml</FileName>
+    <SortOrder>609</SortOrder>
+  </PhoneFamilyTable>
+  
+    <PhoneFamilyTable>
+   	<Regions>!SA,!Japan,!NZ,!China,!Australia,!Canada,!USA,All</Regions>
+	<Operators>!Docomo,All</Operators>
+    <TableName>GeeksPhone</TableName>
+    <FileName>__GeeksPhone.xml</FileName>
+    <SortOrder>610</SortOrder>
+  </PhoneFamilyTable>
+  
+    <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,All</Regions>
+    <TableName>GeneralMobile</TableName>
+    <FileName>__GeneralMobile.xml</FileName>
+    <SortOrder>612</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,!GSM,All</Regions>
+    <TableName>Gionee</TableName>
+    <FileName>__Gionee.xml</FileName>
+    <SortOrder>615</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>GOLive</TableName>
+    <FileName>__GOLive.xml</FileName>
+    <SortOrder>620</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>Gigabyte</TableName>
+    <FileName>__Gigabyte.xml</FileName>
+    <SortOrder>630</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,!GSM,All</Regions>
+    <TableName>Haier</TableName>
+    <FileName>__Haier.xml</FileName>
+    <SortOrder>640</SortOrder>
+  </PhoneFamilyTable>
+  
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,!GSM,All</Regions>
+    <TableName>Hisense</TableName>
+    <FileName>__Hisense.xml</FileName>
+    <SortOrder>655</SortOrder>
+  </PhoneFamilyTable>
+
+  
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,All</Regions>
+    <TableName>HP</TableName>
+    <FileName>__HP.xml</FileName>
+    <SortOrder>670</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>HTC</TableName>
+    <FileName>__HTC.xml</FileName>
+    <SortOrder>700</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>All</Regions>
+    <TableName>Huawei</TableName>
+    <FileName>__Huawei.xml</FileName>
+    <SortOrder>750</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,!GSM,All</Regions>
+    <TableName>Hyundai</TableName>
+    <FileName>__Hyundai.xml</FileName>
+    <SortOrder>800</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>I-mate</TableName>
+    <FileName>__HTC_I-mate.xml</FileName>
+    <SortOrder>900</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,!Israel,All</Regions>
+    <TableName>Intel</TableName>
+    <FileName>__Intel.xml</FileName>
+    <SortOrder>910</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>Israel</Regions>
+    <Operators>Partner</Operators>
+    <TableName>INFINITY</TableName>
+    <FileName>__INFINITY.xml</FileName>
+    <SortOrder>920</SortOrder>
+  </PhoneFamilyTable>
+
+    <PhoneFamilyTable>
+   <Operators>!Docomo,!JapanesePhones,All</Operators>
+   	<Regions>!SA,!Japan,!NZ,!China,!Australia,!Canada,!USA,All</Regions>
+    <TableName>Infinix</TableName>
+    <FileName>__Infinix.xml</FileName>
+    <SortOrder>923</SortOrder>
+  </PhoneFamilyTable>  
+  
+  <PhoneFamilyTable>
+    <Regions>UFED,GSM,Canada</Regions>
+	<Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>INQ</TableName>
+    <FileName>__INQ.xml</FileName>
+    <SortOrder>925</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>Jaga</TableName>
+    <FileName>__Jaga.xml</FileName>
+    <SortOrder>950</SortOrder>
+  </PhoneFamilyTable>
+
+   <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Jugate</TableName>
+    <FileName>__Jugate.xml</FileName>
+    <SortOrder>960</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>KPN</TableName>
+    <FileName>__KPN.xml</FileName>
+    <SortOrder>975</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,!GSM,All</Regions>
+    <TableName>K-Touch</TableName>
+    <FileName>__KTouch.xml</FileName>
+    <SortOrder>988</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>All</Regions>
+    <TableName>Kyocera</TableName>
+    <FileName>__Kyocera.xml</FileName>
+    <SortOrder>1000</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>Lanix</TableName>
+    <FileName>__Lanix.xml</FileName>
+    <SortOrder>1025</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,All</Regions>
+    <TableName>Lenovo</TableName>
+    <FileName>__Lenovo.xml</FileName>
+    <SortOrder>1050</SortOrder>
+  </PhoneFamilyTable>
+
+   <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,All</Regions>
+    <TableName>LEXAND</TableName>
+    <FileName>__LEXAND.xml</FileName>
+    <SortOrder>1075</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!GSM,All</Regions>
+    <TableName>LG CDMA</TableName>
+    <FileName>__LgCDMA.xml</FileName>
+    <SortOrder>1100</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>LG GSM</TableName>
+    <FileName>__LgGSM.xml</FileName>
+    <SortOrder>1200</SortOrder>
+  </PhoneFamilyTable>
+
+     <PhoneFamilyTable>
+   <Operators>!Docomo,!JapanesePhones,All</Operators>
+   	<Regions>!Japan,!NZ,!China,!Australia,!Canada,All</Regions>
+    <TableName>Maxwest</TableName>
+    <FileName>__Maxwest.xml</FileName>
+    <SortOrder>1210</SortOrder>
+  </PhoneFamilyTable>
+  
+   <PhoneFamilyTable>
+   <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>M4Tel</TableName>
+    <FileName>__M4Tel.xml</FileName>
+    <SortOrder>1215</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>Meizu</TableName>
+    <FileName>__Meizu.xml</FileName>
+    <SortOrder>1225</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,All</Regions>
+    <TableName>Micromax</TableName>
+    <FileName>__Micromax.xml</FileName>
+    <SortOrder>1250</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,All</Regions>
+    <TableName>MIO (POZ)</TableName>
+    <FileName>__POZ.xml</FileName>
+    <SortOrder>1300</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>MyPhone</TableName>
+    <FileName>__MyPhone.xml</FileName>
+    <SortOrder>1315</SortOrder>
+  </PhoneFamilyTable>
+
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>Atelier HC/ModeLabs</TableName>
+    <FileName>__ModeLabs.xml</FileName>
+    <SortOrder>1330</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Modems</TableName>
+    <FileName>__Modems.xml</FileName>
+    <SortOrder>1340</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,!GSM,All</Regions>
+    <TableName>Modu</TableName>
+    <FileName>__Modu.xml</FileName>
+    <SortOrder>1350</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!GSM,All</Regions>
+    <TableName>Motorola CDMA</TableName>
+    <FileName>__MotorolaCDMA.xml</FileName>
+    <SortOrder>1400</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Motorola GSM</TableName>
+    <FileName>__MotorolaGSM.xml</FileName>
+    <SortOrder Region="Israel">2</SortOrder>
+    <SortOrder>1500</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!GSM,All</Regions>
+    <TableName>Motorola iDEN</TableName>
+    <FileName>__MotorolaiDEN.xml</FileName>
+    <SortOrder>1600</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!SA,!Japan,!NZ,!China,!Australia,!USA,!Canada,All</Regions>
+    <TableName>MTC</TableName>
+    <FileName>__MTC.xml</FileName>
+    <SortOrder>1650</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Canada,All</Regions>
+    <TableName>NEC</TableName>
+    <FileName>__NEC.xml</FileName>
+    <SortOrder>1700</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>Nokia CDMA</TableName>
+    <FileName>__NokiaCDMA.xml</FileName>
+    <SortOrder>1800</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Nokia GSM</TableName>
+    <FileName>__NokiaGSM.xml</FileName>
+    <SortOrder Region="Israel">1</SortOrder>
+    <SortOrder>1900</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!GSM,All</Regions>
+    <TableName>Nokia TDMA</TableName>
+    <FileName>__NokiaTDMA.xml</FileName>
+    <SortOrder>2000</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>NTT Docomo</TableName>
+    <FileName>__NTT_Docomo.xml</FileName>
+    <SortOrder Operator="Japan">4</SortOrder>
+    <SortOrder>2050</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+	<Operators>JapanesePhones</Operators>
+    <TableName>NTT Docomo</TableName>
+    <FileName>__NTT_Docomo.xml</FileName>
+    <SortOrder>2051</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - Apple</TableName>
+    <FileName>__NTT_Docomo_Apple.xml</FileName>
+    <SortOrder>2052</SortOrder>
+    <SortOrder Operator="Docomo">1</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - BlackBerry</TableName>
+    <FileName>__NTT_Docomo_BlackBerry.xml</FileName>
+    <SortOrder>2054</SortOrder>
+    <SortOrder Operator="Docomo">11</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - Fujitsu</TableName>
+    <FileName>__NTT_Docomo_Fujitsu.xml</FileName>
+    <SortOrder>2057</SortOrder>
+    <SortOrder Operator="Docomo">2</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - HTC</TableName>
+    <FileName>__NTT_Docomo_HTC.xml</FileName>
+    <SortOrder>2060</SortOrder>
+    <SortOrder Operator="Docomo">12</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - Huawei</TableName>
+    <FileName>__NTT_Docomo_Huawei.xml</FileName>
+    <SortOrder>2063</SortOrder>
+    <SortOrder Operator="Docomo">10</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - LG</TableName>
+    <FileName>__NTT_Docomo_LG.xml</FileName>
+    <SortOrder>2066</SortOrder>
+    <SortOrder Operator="Docomo">8</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - Mitsubishi</TableName>
+    <FileName>__NTT_Docomo_Mitsubishi.xml</FileName>
+    <SortOrder>2069</SortOrder>
+    <SortOrder Operator="Docomo">13</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - NEC</TableName>
+    <FileName>__NTT_Docomo_NEC.xml</FileName>
+    <SortOrder>2072</SortOrder>
+    <SortOrder Operator="Docomo">7</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - Nokia</TableName>
+    <FileName>__NTT_Docomo_Nokia.xml</FileName>
+    <SortOrder>2075</SortOrder>
+    <SortOrder Operator="Docomo">14</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - Panasonic</TableName>
+    <FileName>__NTT_Docomo_Panasonic.xml</FileName>
+    <SortOrder>2078</SortOrder>
+    <SortOrder Operator="Docomo">6</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - Samsung</TableName>
+    <FileName>__NTT_Docomo_Samsung.xml</FileName>
+    <SortOrder>2081</SortOrder>
+    <SortOrder Operator="Docomo">5</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - Sanyo</TableName>
+    <FileName>__NTT_Docomo_Sanyo.xml</FileName>
+    <SortOrder>2084</SortOrder>
+    <SortOrder Operator="Docomo">15</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - Sharp</TableName>
+    <FileName>__NTT_Docomo_Sharp.xml</FileName>
+    <SortOrder>2087</SortOrder>
+    <SortOrder Operator="Docomo">3</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - SonyEricsson</TableName>
+    <FileName>__NTT_Docomo_SonyEricsson.xml</FileName>
+    <SortOrder>2090</SortOrder>
+    <SortOrder Operator="Docomo">4</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>NTT Docomo - Toshiba</TableName>
+    <FileName>__NTT_Docomo_Toshiba.xml</FileName>
+    <SortOrder>2093</SortOrder>
+    <SortOrder Operator="Docomo">9</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>O2</TableName>
+    <FileName>__HTC_O2.xml</FileName>
+    <SortOrder>2100</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+	<Operators>!Docomo,!JapanesePhones,All</Operators>
+	<Regions>!Japan,!NZ,!China,!Australia,!Canada,All</Regions>
+    <TableName>OnePlus</TableName>
+    <FileName>__OnePlus.xml</FileName>
+    <SortOrder>2125</SortOrder>
+  </PhoneFamilyTable>  
+  
+  <PhoneFamilyTable>
+    <Regions>UFED,China,GSM,!Japan,All</Regions>
+	<Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Oppo</TableName>
+    <FileName>__Oppo.xml</FileName>
+    <SortOrder>2150</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,All</Regions>
+    <TableName>Orange (SPV)</TableName>
+    <FileName>__HTC_SPV.xml</FileName>
+    <SortOrder>2200</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Palm</TableName>
+    <FileName>__TREO.xml</FileName>
+    <SortOrder>2300</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,All</Regions>
+    <TableName>Panasonic</TableName>
+    <FileName>__Panasonic.xml</FileName>
+    <SortOrder>2400</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Pantech</TableName>
+    <FileName>__Pantech.xml</FileName>
+    <SortOrder>2500</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,!GSM,All</Regions>
+    <TableName>Pidion</TableName>
+    <FileName>__Pidion.xml</FileName>
+    <SortOrder>2550</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,All</Regions>
+    <TableName>Philips</TableName>
+    <FileName>__Philips.xml</FileName>
+    <SortOrder>2575</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Polaroid</TableName>
+    <FileName>__Polaroid.xml</FileName>
+    <SortOrder>2585</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,All</Operators>
+    <TableName>QTEK</TableName>
+    <FileName>__HTC_QTEK.xml</FileName>
+    <SortOrder>2600</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,All</Regions>
+    <TableName>Sagem</TableName>
+    <FileName>__Sagem.xml</FileName>
+    <SortOrder>2700</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!GSM,All</Regions>
+    <TableName>Samsung CDMA</TableName>
+    <FileName>__SamsungCDMA.xml</FileName>
+    <SortOrder>2800</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Samsung GSM</TableName>
+    <FileName>__SamsungGSM.xml</FileName>
+    <SortOrder Region="Israel">3</SortOrder>
+    <SortOrder>2900</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,!GSM,All</Regions>
+    <TableName>Samsung TDMA</TableName>
+    <FileName>__SamsungTDMA.xml</FileName>
+    <SortOrder>3000</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>Sanyo CDMA</TableName>
+    <FileName>__Sanyo.xml</FileName>
+    <SortOrder>3100</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Satellite phones</TableName>
+    <FileName>__SatellitePhones.xml</FileName>
+    <SortOrder>3150</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>SFR</TableName>
+    <FileName>__SFR.xml</FileName>
+    <SortOrder>3170</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>SFR</Operators>
+    <Regions>GSM</Regions>
+    <TableName>SFR</TableName>
+    <FileName>__SFR.xml</FileName>
+    <SortOrder>3171</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,All</Regions>
+    <TableName>Sharp</TableName>
+    <FileName>__Sharp.xml</FileName>
+    <SortOrder>3200</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Siemens/Benq</TableName>
+    <FileName>__Siemens.xml</FileName>
+    <SortOrder>3300</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>SIM reader</TableName>
+    <FileName>__SimReader.xml</FileName>
+    <SortOrder>3400</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,!GSM,All</Regions>
+    <TableName>SK CDMA</TableName>
+    <FileName>__SkCDMA.xml</FileName>
+    <SortOrder>3500</SortOrder>
+  </PhoneFamilyTable>
+
+    <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Skype</TableName>
+    <FileName>__Skype.xml</FileName>
+    <SortOrder>3550</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Sky</TableName>
+    <FileName>__Sky.xml</FileName>
+    <SortOrder>3555</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Smart Phones/PDAs</TableName>
+    <FileName>__SmartPhones.xml</FileName>
+    <SortOrder>3600</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>SoftBank</TableName>
+    <FileName>__Softbank.xml</FileName>
+    <SortOrder Operator="Japan">5</SortOrder>
+    <SortOrder>3650</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+	<Operators>JapanesePhones</Operators>
+    <TableName>SoftBank</TableName>
+    <FileName>__Softbank.xml</FileName>
+    <SortOrder>3651</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - Apple</TableName>
+    <FileName>__Softbank_Apple.xml</FileName>
+    <SortOrder>3653</SortOrder>
+    <SortOrder Operator="Docomo">31</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - DELL</TableName>
+    <FileName>__Softbank_DELL.xml</FileName>
+    <SortOrder>3655</SortOrder>
+    <SortOrder Operator="Docomo">39</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - Fujitsu</TableName>
+    <FileName>__Softbank_Fujitsu.xml</FileName>
+    <SortOrder>3657</SortOrder>
+    <SortOrder Operator="Docomo">35</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - HTC</TableName>
+    <FileName>__Softbank_HTC.xml</FileName>
+    <SortOrder>3659</SortOrder>
+    <SortOrder Operator="Docomo">43</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - Huawei</TableName>
+    <FileName>__Softbank_Huawei.xml</FileName>
+    <SortOrder>3661</SortOrder>
+    <SortOrder Operator="Docomo">38</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - Kyocera</TableName>
+    <FileName>__Softbank_Kyocera.xml</FileName>
+    <SortOrder>3663</SortOrder>
+    <SortOrder Operator="Docomo">36</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - Motorola</TableName>
+    <FileName>__Softbank_Motorola.xml</FileName>
+    <SortOrder>3665</SortOrder>
+    <SortOrder Operator="Docomo">40</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - NEC</TableName>
+    <FileName>__Softbank_NEC.xml</FileName>
+    <SortOrder>3667</SortOrder>
+    <SortOrder Operator="Docomo">34</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - Nokia</TableName>
+    <FileName>__Softbank_Nokia.xml</FileName>
+    <SortOrder>3669</SortOrder>
+    <SortOrder Operator="Docomo">44</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - Panasonic</TableName>
+    <FileName>__Softbank_Panasonic.xml</FileName>
+    <SortOrder>3670</SortOrder>
+    <SortOrder Operator="Docomo">33</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - Samsung</TableName>
+    <FileName>__Softbank_Samsung.xml</FileName>
+    <SortOrder>3671</SortOrder>
+    <SortOrder Operator="Docomo">41</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - Sharp</TableName>
+    <FileName>__Softbank_Sharp.xml</FileName>
+    <SortOrder>3672</SortOrder>
+    <SortOrder Operator="Docomo">32</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - Toshiba</TableName>
+    <FileName>__Softbank_Toshiba.xml</FileName>
+    <SortOrder>3673</SortOrder>
+    <SortOrder Operator="Docomo">42</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>SoftBank - ZTE</TableName>
+    <FileName>__Softbank_ZTE.xml</FileName>
+    <SortOrder>3674</SortOrder>
+    <SortOrder Operator="Docomo">37</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Sonim</TableName>
+    <FileName>__Sonim.xml</FileName>
+    <SortOrder>3675</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Sony Ericsson</TableName>
+    <FileName>__SonyEricsson.xml</FileName>
+    <SortOrder Region="Israel">4</SortOrder>
+    <SortOrder>3700</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,All</Operators>
+    <TableName>Sunup</TableName>
+    <FileName>__Sunup.xml</FileName>
+    <SortOrder>3720</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Tablets</TableName>
+    <FileName>__Tablets.xml</FileName>
+    <SortOrder>3750</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED,GSM</Regions>
+	<Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>Tecno</TableName>
+    <FileName>__Tecno.xml</FileName>
+    <SortOrder>3760</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,!GSM,All</Regions>
+    <TableName>Telit</TableName>
+    <FileName>__Telit.xml</FileName>
+    <SortOrder>3800</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,!Israel,All</Regions>
+    <TableName>TIM</TableName>
+    <FileName>__TIM.xml</FileName>
+    <SortOrder>3850</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,All</Regions>
+    <TableName>T-Mobile</TableName>
+    <FileName>__HTC_T-mobile.xml</FileName>
+    <SortOrder>3900</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,All</Regions>
+    <TableName>Toshiba</TableName>
+    <FileName>__Toshiba.xml</FileName>
+    <SortOrder>3912</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>True</TableName>
+    <FileName>__True.xml</FileName>
+    <SortOrder>3914</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Turkcell</TableName>
+    <FileName>__Turkcell.xml</FileName>
+    <SortOrder>3919</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Turkcell</Operators>
+    <Regions>GSM</Regions>
+    <TableName>Turkcell</TableName>
+    <FileName>__Turkcell.xml</FileName>
+    <SortOrder>3920</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,All</Regions>
+    <TableName>Ubiquam</TableName>
+    <FileName>__Ubiquam.xml</FileName>
+    <SortOrder>3925</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>UniMile</TableName>
+    <FileName>__UniMile.xml</FileName>
+    <SortOrder>3930</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>UMX</TableName>
+    <FileName>__UMX.xml</FileName>
+    <SortOrder>3940</SortOrder>
+  </PhoneFamilyTable>
+
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Vertu</TableName>
+    <FileName>__Vertu.xml</FileName>
+    <SortOrder>3950</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Vertu</Operators>
+    <TableName>Vertu</TableName>
+    <FileName>__Vertu.xml</FileName>
+    <SortOrder>3951</SortOrder>
+  </PhoneFamilyTable>
+
+    <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Canada,All</Regions>
+    <TableName>Verykool</TableName>
+    <FileName>__Verykool.xml</FileName>
+    <SortOrder>3960</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,!GSM,All</Regions>
+    <TableName>Videocon</TableName>
+    <FileName>__Videocon.xml</FileName>
+    <SortOrder>3975</SortOrder>
+  </PhoneFamilyTable>
+
+   <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!SA,!Japan,!NZ,!China,!Australia,!Israel,!USA,!Canada,All</Regions>
+    <TableName>ViewSonic</TableName>
+    <FileName>__ViewSonic.xml</FileName>
+    <SortOrder>3990</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+	<Regions>!SA,!Japan,!NZ,!Australia,!USA,!Canada,UFED,All</Regions>
+    <TableName>VIVO</TableName>
+    <FileName>__VIVO.xml</FileName>
+    <SortOrder>3995</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>VK Mobile</TableName>
+    <FileName>__VKMobile.xml</FileName>
+    <SortOrder>4000</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,All</Regions>
+    <TableName>Vodafone</TableName>
+    <FileName>__Vodafone.xml</FileName>
+    <SortOrder>4100</SortOrder>
+  </PhoneFamilyTable>
+
+    <PhoneFamilyTable>
+	<Operators>!Docomo,!JapanesePhones,All</Operators>
+	<Regions>!SA,!Japan,!NZ,!China,!Australia,!Canada,!USA,All</Regions>
+    <TableName>Wiko</TableName>
+    <FileName>__Wiko.xml</FileName>
+    <SortOrder>4110</SortOrder>
+   </PhoneFamilyTable>     
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>WILLCOM</TableName>
+    <FileName>__WILLCOM.xml</FileName>
+    <SortOrder Operator="Japan">6</SortOrder>
+    <SortOrder>4125</SortOrder>
+  </PhoneFamilyTable>
+
+ <PhoneFamilyTable>
+	<Operators>JapanesePhones</Operators>
+    <TableName>WILLCOM</TableName>
+    <FileName>__WILLCOM.xml</FileName>
+    <SortOrder>4126</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>WILLCOM - JRC</TableName>
+    <FileName>__WILLCOM_JRC.xml</FileName>
+    <SortOrder>4129</SortOrder>
+    <SortOrder Operator="Docomo">55</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>WILLCOM - KES</TableName>
+    <FileName>__WILLCOM_KES.xml</FileName>
+    <SortOrder>4132</SortOrder>
+    <SortOrder Operator="Docomo">56</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>WILLCOM - Kyocera</TableName>
+    <FileName>__WILLCOM_Kyocera.xml</FileName>
+    <SortOrder>4135</SortOrder>
+    <SortOrder Operator="Docomo">62</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>Docomo</Operators>
+    <TableName>WILLCOM - Toshiba</TableName>
+    <FileName>__WILLCOM_Toshiba.xml</FileName>
+    <SortOrder>4138</SortOrder>
+    <SortOrder Operator="Docomo">65</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!UFED,!Israel,!USA,!Canada,All</Regions>
+    <TableName>WIND</TableName>
+    <FileName>__WIND.xml</FileName>
+    <SortOrder>4150</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+	<Operators>!Docomo,!JapanesePhones,All</Operators>
+	<Regions>!USA,All</Regions>
+    <TableName>Xiaomi</TableName>
+    <FileName>__Xiaomi.xml</FileName>
+    <SortOrder>4160</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!USA,!Canada,All</Regions>
+    <TableName>Yotaphone</TableName>
+    <FileName>__Yotaphone.xml</FileName>
+    <SortOrder>4170</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!USA,!Canada,!GSM,All</Regions>
+    <TableName>Zonda</TableName>
+    <FileName>__Zonda.xml</FileName>
+    <SortOrder>4175</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <Regions>!Israel,!GSM,All</Regions>
+    <TableName>ZTE CDMA</TableName>
+    <FileName>__ZteCDMA.xml</FileName>
+    <SortOrder>4200</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Operators>!Docomo,!JapanesePhones,All</Operators>
+    <TableName>ZTE GSM</TableName>
+    <FileName>__ZteGSM.xml</FileName>
+    <SortOrder>4300</SortOrder>
+  </PhoneFamilyTable>
+  
+  ..................................Memory Dump Tables .................................
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Acer Dump</TableName>
+    <FileName>__Dump_Acer.xml</FileName>
+    <SortOrder>4800</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Alcatel Dump</TableName>
+    <FileName>__Dump_Alcatel.xml</FileName>
+    <SortOrder>4850</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Amoi Dump</TableName>
+    <FileName>__Dump_Amoi.xml</FileName>
+    <SortOrder>4900</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Amazon Dump</TableName>
+    <FileName>__Dump_Amazon.xml</FileName>
+    <SortOrder>4908</SortOrder>
+  </PhoneFamilyTable>  
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>AnyDATA Dump</TableName>
+    <FileName>__Dump_AnyDATA.xml</FileName>
+    <SortOrder>4915</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Apple Dump</TableName>
+    <FileName>__Dump_Apple.xml</FileName>
+    <SortOrder>4920</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Archos Dump</TableName>
+    <FileName>__Dump_Archos.xml</FileName>
+    <SortOrder>4925</SortOrder>
+  </PhoneFamilyTable>
+  
+    <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Ark Dump</TableName>
+    <FileName>__Dump_Ark.xml</FileName>
+    <SortOrder>4935</SortOrder>
+  </PhoneFamilyTable>  
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Asus Dump</TableName>
+    <FileName>__Dump_Asus.xml</FileName>
+    <SortOrder>4950</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>AU Dump</TableName>
+    <FileName>__Dump_AU.xml</FileName>
+    <SortOrder Operator="Japan">4772</SortOrder>
+    <SortOrder>4975</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Audiovox Dump</TableName>
+    <FileName>__Dump_Audiovox.xml</FileName>
+    <SortOrder>5000</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Bea-fon</TableName>
+    <FileName>__Dump_Beafon.xml</FileName>
+    <SortOrder>495</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>BlackBerry CDMA Dump</TableName>
+    <FileName>__Dump_BlackBerryCDMA.xml</FileName>
+    <SortOrder>5025</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>BlackBerry GSM Dump</TableName>
+    <FileName>__Dump_BlackBerryGSM.xml</FileName>
+    <SortOrder>5050</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>BLU Dump</TableName>
+    <FileName>__Dump_BLU.xml</FileName>
+    <SortOrder>5055</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Cal Comp Dump</TableName>
+    <FileName>__Dump_CalComp.xml</FileName>
+    <SortOrder>5060</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Casio Dump</TableName>
+    <FileName>__Dump_Casio.xml</FileName>
+    <SortOrder>5065</SortOrder>
+  </PhoneFamilyTable>
+
+    <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>CAT Dump</TableName>
+    <FileName>__Dump_CAT.xml</FileName>
+    <SortOrder>5067</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Chinese Android Phones dump</TableName>
+    <FileName>__Dump_MTK_Android.xml</FileName>
+    <SortOrder>5070</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Chinese phones dump</TableName>
+    <FileName>__Dump_MTK.xml</FileName>
+    <SortOrder>5075</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Coolpad Dump</TableName>
+    <FileName>__Dump_Coolpad.xml</FileName>
+    <SortOrder>5080</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Daxian Dump</TableName>
+    <FileName>__Dump_Daxian.xml</FileName>
+    <SortOrder>5082</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Dell dump</TableName>
+    <FileName>__Dump_Dell.xml</FileName>
+    <SortOrder>5085</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Dopod Dump</TableName>
+    <FileName>__Dump_Dopod.xml</FileName>
+    <SortOrder>5090</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Doro Dump</TableName>
+    <FileName>__Dump_Doro.xml</FileName>
+    <SortOrder>5095</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Emobile Dump</TableName>
+    <FileName>__Dump_Emobile.xml</FileName>
+    <SortOrder Operator="Japan">4773</SortOrder>
+    <SortOrder>5100</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Fly Dump</TableName>
+    <FileName>__Dump_Fly.xml</FileName>
+    <SortOrder>5105</SortOrder>
+  </PhoneFamilyTable> 
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Hisense Dump</TableName>
+    <FileName>__Dump_Hisense.xml</FileName>
+    <SortOrder>5108</SortOrder>
+  </PhoneFamilyTable> 
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Garmin Dump</TableName>
+    <FileName>__Dump_Garmin.xml</FileName>
+    <SortOrder>5110</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Geeksphone Dump</TableName>
+    <FileName>__Dump_GeeksPhone.xml</FileName>
+    <SortOrder>5115</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>GeneralMobile Dump</TableName>
+    <FileName>__Dump_GeneralMobile.xml</FileName>
+    <SortOrder>5117</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Gigabyte Dump</TableName>
+    <FileName>__Dump_Gigabyte.xml</FileName>
+    <SortOrder>5120</SortOrder>
+	<SortOrder Platform = "Exodus">611</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Gionee Dump</TableName>
+    <FileName>__Dump_Gionee.xml</FileName>
+    <SortOrder>5121</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Haier Dump</TableName>
+    <FileName>__Dump_Haier.xml</FileName>
+    <SortOrder>5122</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>HP Dump</TableName>
+    <FileName>__Dump_HP.xml</FileName>
+    <SortOrder>5125</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>HTC Dump</TableName>
+    <FileName>__Dump_HTC.xml</FileName>
+    <SortOrder>5130</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Huawei Dump</TableName>
+    <FileName>__Dump_Huawei.xml</FileName>
+    <SortOrder>5132</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>I-Mate Dump</TableName>
+    <FileName>__Dump_HTC_I-mate.xml</FileName>
+    <SortOrder>5135</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>INQ Dump</TableName>
+    <FileName>__Dump_INQ.xml</FileName>
+    <SortOrder>5137</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Jaga Dump</TableName>
+    <FileName>__Dump_Jaga.xml</FileName>
+    <SortOrder>5140</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Jugate Dump</TableName>
+    <FileName>__Dump_Jugate.xml</FileName>
+    <SortOrder>5142</SortOrder>
+  </PhoneFamilyTable>
+    
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>KTouch Dump</TableName>
+    <FileName>__Dump_KTouch.xml</FileName>
+    <SortOrder>5145</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Kyocera Dump</TableName>
+    <FileName>__Dump_Kyocera.xml</FileName>
+    <SortOrder>5150</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Lanix Dump</TableName>
+    <FileName>__Dump_Lanix.xml</FileName>
+    <SortOrder>5160</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Lenovo Dump</TableName>
+    <FileName>__Dump_Lenovo.xml</FileName>
+    <SortOrder>5175</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>LG CDMA Dump</TableName>
+    <FileName>__Dump_LgCDMA.xml</FileName>
+    <SortOrder>5200</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>LG GSM Dump</TableName>
+    <FileName>__Dump_LgGSM.xml</FileName>
+    <SortOrder>5250</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>M4Tel Dump</TableName>
+    <FileName>__Dump_M4Tel.xml</FileName>
+    <SortOrder>5255</SortOrder>
+	<SortOrder Platform = "Exodus">1455</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Mass Storage Device Dump</TableName>
+    <FileName>__Dump_MassStorage.xml</FileName>
+    <SortOrder>5260</SortOrder>
+	<SortOrder Platform = "Exodus">1220</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Meizu Dump</TableName>
+    <FileName>__Dump_Meizu.xml</FileName>
+    <SortOrder>5262</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Micromax Dump</TableName>
+    <FileName>__Dump_Micromax.xml</FileName>
+    <SortOrder>5275</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Atelier HC/ModeLabs dump</TableName>
+    <FileName>__Dump_ModeLabs.xml</FileName>
+    <SortOrder>5285</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Motorola CDMA Dump</TableName>
+    <FileName>__Dump_MotorolaCDMA.xml</FileName>
+    <SortOrder>5300</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Motorola GSM Dump</TableName>
+    <FileName>__Dump_MotorolaGSM.xml</FileName>
+    <SortOrder>5400</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Motorola iDEN Dump</TableName>
+    <FileName>__Dump_MotorolaiDEN.xml</FileName>
+    <SortOrder>5500</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>MyPhone Dump</TableName>
+    <FileName>__Dump_MyPhone.xml</FileName>
+    <SortOrder>5515</SortOrder>
+  </PhoneFamilyTable>
+  
+    <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>MTC Dump</TableName>
+    <FileName>__Dump_MTC.xml</FileName>
+    <SortOrder>5520</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Navitel Dump</TableName>
+    <FileName>__Dump_Navitel.xml</FileName>
+    <SortOrder>5525</SortOrder>
+	<SortOrder Platform = "Exodus">1675</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>NEC Dump</TableName>
+    <FileName>__Dump_NEC.xml</FileName>
+    <SortOrder>5550</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Nokia CDMA Dump</TableName>
+    <FileName>__Dump_NokiaCDMA.xml</FileName>
+    <SortOrder>5600</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Nokia GSM Dump</TableName>
+    <FileName>__Dump_NokiaGSM.xml</FileName>
+    <SortOrder>5700</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>NTT Docomo Dump</TableName>
+    <FileName>__Dump_NTT_Docomo.xml</FileName>
+    <SortOrder Operator="Japan">4774</SortOrder>
+    <SortOrder>5710</SortOrder>
+  </PhoneFamilyTable>
+
+  <!--PhoneFamilyTable>
+    All are untested
+    <Regions>UFED</Regions>
+    <TableName>O2 Dump</TableName>
+    <FileName>__Dump_HTC_O2.xml</FileName>
+    <SortOrder>5720</SortOrder>
+  </PhoneFamilyTable-->
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>OnePlus Dump</TableName>
+    <FileName>__Dump_OnePlus.xml</FileName>
+    <SortOrder>5722</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Oppo Dump</TableName>
+    <FileName>__Dump_Oppo.xml</FileName>
+    <SortOrder>5723</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Palm Dump</TableName>
+    <FileName>__Dump_TREO.xml</FileName>
+    <SortOrder>5725</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Pantech Dump</TableName>
+    <FileName>__Dump_Pantech.xml</FileName>
+    <SortOrder>5730</SortOrder>
+  </PhoneFamilyTable>
+  
+   <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Philips Dump</TableName>
+    <FileName>__Dump_Philips.xml</FileName>
+    <SortOrder>5735</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Pidion Dump</TableName>
+    <FileName>__Dump_Pidion.xml</FileName>
+    <SortOrder>5740</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Polaroid Dump</TableName>
+    <FileName>__Dump_Polaroid.xml</FileName>
+    <SortOrder>5743</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>POZ Dump</TableName>
+    <FileName>__Dump_POZ.xml</FileName>
+    <SortOrder>5745</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>QTek Dump</TableName>
+    <FileName>__Dump_HTC_QTEK.xml</FileName>
+    <SortOrder>5750</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Sagem Dump</TableName>
+    <FileName>__Dump_Sagem.xml</FileName>
+    <SortOrder>5775</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Samsung CDMA Dump</TableName>
+    <FileName>__Dump_SamsungCDMA.xml</FileName>
+    <SortOrder>5800</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Samsung GSM Dump</TableName>
+    <FileName>__Dump_SamsungGSM.xml</FileName>
+    <SortOrder>5850</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Sanyo CDMA Dump</TableName>
+    <FileName>__Dump_Sanyo.xml</FileName>
+    <SortOrder>5900</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>SFR Dump</TableName>
+    <FileName>__Dump_SFR.xml</FileName>
+    <SortOrder>5915</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Sharp Dump</TableName>
+    <FileName>__Dump_Sharp.xml</FileName>
+    <SortOrder>5925</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>SIM Dump</TableName>
+    <FileName>__Dump_SimReader.xml</FileName>
+    <SortOrder>5950</SortOrder>
+  </PhoneFamilyTable>
+
+    <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Sky Dump</TableName>
+    <FileName>__Dump_Sky.xml</FileName>
+    <SortOrder>5955</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Skype Dump</TableName>
+    <FileName>__Dump_Skype.xml</FileName>
+    <SortOrder>6000</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Smart Phones Dump</TableName>
+    <FileName>__Dump_SmartPhones.xml</FileName>
+    <SortOrder>6025</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Softbank Dump</TableName>
+    <FileName>__Dump_Softbank.xml</FileName>
+    <SortOrder Operator="Japan">4775</SortOrder>
+    <SortOrder>6050</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Sonim Dump</TableName>
+    <FileName>__Dump_Sonim.xml</FileName>
+    <SortOrder>6075</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>SonyEricsson Dump</TableName>
+    <FileName>__Dump_SonyEricsson.xml</FileName>
+    <SortOrder>6100</SortOrder>
+  </PhoneFamilyTable>
+
+   <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Sunup Dump</TableName>
+    <FileName>__Dump_Sunup.xml</FileName>
+    <SortOrder>6105</SortOrder>
+  </PhoneFamilyTable>
+  
+  <!--xPhoneFamilyTable>
+    All are untested
+    <Regions>UFED</Regions>
+    <TableName>SPV Dump</TableName>
+    <FileName>__Dump_HTC_SPV.xml</FileName>
+    <SortOrder>6200</SortOrder>
+  </PhoneFamilyTable-->
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>T-Mobile Dump</TableName>
+    <FileName>__Dump_HTC_T-mobile.xml</FileName>
+    <SortOrder>6300</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Tablets dump</TableName>
+    <FileName>__Dump_Tablets.xml</FileName>
+    <SortOrder>6325</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Tecno dump</TableName>
+    <FileName>__Dump_Tecno.xml</FileName>
+    <SortOrder>6340</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Toshiba Dump</TableName>
+    <FileName>__Dump_Toshiba.xml</FileName>
+    <SortOrder>6350</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Turkcell Dump</TableName>
+    <FileName>__Dump_Turkcell.xml</FileName>
+    <SortOrder>6355</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>TomTom Dump</TableName>
+    <FileName>__Dump_TomTom.xml</FileName>
+    <SortOrder>6360</SortOrder>
+	<SortOrder Platform = "Exodus">3905</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>UMX Dump</TableName>
+    <FileName>__Dump_UMX.xml</FileName>
+    <SortOrder>6370</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>UniMile Dump</TableName>
+    <FileName>__Dump_UniMile.xml</FileName>
+    <SortOrder>6372</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Vertu Dump</TableName>
+    <FileName>__Dump_Vertu.xml</FileName>
+    <SortOrder>6375</SortOrder>
+  </PhoneFamilyTable>
+  
+    <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Verykool Dump</TableName>
+    <FileName>__Dump_Verykool.xml</FileName>
+    <SortOrder>6380</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Videocon Dump</TableName>
+    <FileName>__Dump_Videocon.xml</FileName>
+    <SortOrder>6385</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>ViewSonic Dump</TableName>
+    <FileName>__Dump_ViewSonic.xml</FileName>
+    <SortOrder>6390</SortOrder>
+	<SortOrder Platform = "Exodus">3977</SortOrder>
+  </PhoneFamilyTable>
+   
+   <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>VIVO Dump</TableName>
+    <FileName>__Dump_VIVO.xml</FileName>
+    <SortOrder>6395</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Vodafone Dump</TableName>
+    <FileName>__Dump_Vodafone.xml</FileName>
+    <SortOrder>6400</SortOrder>
+  </PhoneFamilyTable>
+  
+   <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Wiko Dump</TableName>
+    <FileName>__Dump_Wiko.xml</FileName>
+    <SortOrder>6445</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Xiaomi Dump</TableName>
+    <FileName>__Dump_Xiaomi.xml</FileName>
+    <SortOrder>6450</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>Zonda Dump</TableName>
+    <FileName>__Dump_Zonda.xml</FileName>
+    <SortOrder>6475</SortOrder>
+  </PhoneFamilyTable>
+  
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>ZTE CDMA Dump</TableName>
+    <FileName>__Dump_ZteCDMA.xml</FileName>
+    <SortOrder>6500</SortOrder>
+  </PhoneFamilyTable>
+
+  <PhoneFamilyTable>
+    <Regions>UFED</Regions>
+    <TableName>ZTE GSM Dump</TableName>
+    <FileName>__Dump_ZteGSM.xml</FileName>
+    <SortOrder>6600</SortOrder>
+  </PhoneFamilyTable>
+
+  ................. Tables of the state machine menu etc .................
+
+  <StateMachineTable>
+    <TableName>DifSourcesDefs</TableName>
+    <FileName>DifSourcesDefs.xml</FileName>
+  </StateMachineTable>
+
+  <StateMachineTable>
+    <TableName>FactorySettings</TableName>
+    <FileName>FactorySettings.xml</FileName>
+  </StateMachineTable>
+
+  <StateMachineTable>
+    <TableName>UserSettings</TableName>
+    <FileName>UserSettings.xml</FileName>
+  </StateMachineTable>
+
+  <StateMachineTable>
+    <TableName>Tools</TableName>
+    <FileName>Tools.xml</FileName>
+  </StateMachineTable>
+
+
+</dataroot>
