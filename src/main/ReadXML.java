@@ -66,8 +66,12 @@ public class ReadXML {
                     phoneName = name.getTextContent();
                 }
 
-                if ((phoneName != null) && (phoneGuidName != null) && (phoneName.equals(phoneGuidName))) {
+                if ((phoneName != null) && (phoneGuidName != null) && (phoneName.equals(phoneGuidName) && (j==xmlChilderenNodes.getLength()-2))) {
+                  
                     System.out.println("Guid name and phone name are equal");
+                    phoneName = null;
+                    phoneGuidName = null;
+                    
                 }
                 //System.out.println(name.getTagName() + " " + name.getTextContent() + " attribute: " + name.getAttribute("name"));
 
