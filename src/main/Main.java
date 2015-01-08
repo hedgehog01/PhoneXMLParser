@@ -17,6 +17,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ReadXML.readXMLByName("test.xml", "PHONE");
+        //ReadXML.readXMLByName("test.xml", "PHONE");
+        WriteXML.writeXMLByName("phonetest.xml", "dataroot", "Phone");
     }
 }
