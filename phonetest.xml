@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><dataroot><Phone/>Phone 1</dataroot>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataroot>
+  <Phone>
+    <Name>Phone 1</Name>
+    <Guid name="Phone 1">578e0e0a-b5fc-4052-926a-ab0afd732a26</Guid>
+  </Phone>
+</dataroot>

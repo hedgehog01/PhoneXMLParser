@@ -18,6 +18,7 @@ public class Main {
      */
     public static void main(String[] args) {
         //ReadXML.readXMLByName("test.xml", "PHONE");
-        WriteXML.writeXMLByName("phonetest.xml", "dataroot", "Phone");
+        //WriteXML.writeXMLByName("phonetest.xml", "dataroot", "Phone");
+        WriteXML.updateXMLNodeElement("test.xml", "Name", "ZMKN110Z", "new Name","");
     }
 }
