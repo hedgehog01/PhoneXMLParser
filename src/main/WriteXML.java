@@ -135,7 +135,7 @@ public class WriteXML
             doc.setXmlStandalone(true);
 
             //Get XML root element list
-            Node dataRoot = doc.getFirstChild();
+            //Node dataRoot = doc.getFirstChild();
 
             //get Phone node
             NodeList phoneNodeList = doc.getElementsByTagName(MAIN_ELEMENT);
@@ -179,8 +179,8 @@ public class WriteXML
             if (XMLFilePath.contains(".XML") || (XMLFilePath.contains(".xml")))
             {
                 
-                XMLFilePath.replaceAll(".xml", "");
-                XMLFilePath.replaceAll(".XML", "");
+                 XMLFilePath = XMLFilePath.replaceAll(".xml", "");
+                XMLFilePath = XMLFilePath.replaceAll(".XML", "");
                 LOG.log(Level.INFO, "XML File path contained .xml and will be removed - new file name: {0}",XMLFilePath);
             }
             //create output folder (if doesn't exist)
