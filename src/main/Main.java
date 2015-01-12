@@ -22,6 +22,6 @@ public class Main {
         //WriteXML.updateXMLNodeElement("test.xml", "Name", "ZMKN110Z", "new Name","");
         //ReadXML.getAllXMLTagTextByName("test.xml","PHONE", "Name");
         //ReadXML.getAllXMLTagTextByName("test.xml","PHONE", "Guid");
-        ReadXML.getAllNodeElements("test.xml", "PHONE", "Default");
+        ReadXML.getAllNodeElements("test.xml", "PHONE", "ZMKN110Z");
     }
 }
