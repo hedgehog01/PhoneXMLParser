@@ -22,9 +22,9 @@ import org.xml.sax.SAXException;
  * @author nathanr
  */
 public class ReadXML {
+
     private static final Logger LOG = Logger.getLogger(ReadXML.class.getName());
 
-    
     /**
      * Method to print all specific text in tags in the XML
      *
@@ -75,6 +75,39 @@ public class ReadXML {
             }
         }
     }
+    /**
+     * Method to print all XML elements under main node
+     * @param XMLName the XML to parse (Full path)
+     * @param tagName The main XMl tag
+     */
+    public static void readXMLByName(String XMLName, String tagName) {
+        try {
+            DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = docFactory.newDocumentBuilder();
+            Document doc = builder.parse(XMLName);
+
+            // normalize text representation
+            doc.getDocumentElement().normalize();
+            System.out.println("Root element of the doc is "
+                    + doc.getDocumentElement().getNodeName());
+
+            NodeList nodeList = doc.getElementsByTagName(tagName);
+            getAllNodeListElements (nodeList);
+            /*
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                Node node = nodeList.item(i);
+                if (node.getNodeType() == Node.ELEMENT_NODE) {
+                    Element element = (Element) node;
+
+                    NodeList xmlChilderenNodes = element.getChildNodes();
+                    getNodeNameInfo(xmlChilderenNodes);
+                }
+            }
+            */
+        } catch (ParserConfigurationException | SAXException | IOException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 
     /*
      * private method that check Phone name and Guid name attribute
@@ -109,32 +142,6 @@ public class ReadXML {
         }
     }
 
-    public static void readXMLByName(String XMLName, String tagName) {
-        try {
-            DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = docFactory.newDocumentBuilder();
-            Document doc = builder.parse(XMLName);
-
-            // normalize text representation
-            doc.getDocumentElement().normalize();
-            System.out.println("Root element of the doc is "
-                    + doc.getDocumentElement().getNodeName());
-
-            NodeList nodeList = doc.getElementsByTagName(tagName);
-            for (int i = 0; i < nodeList.getLength(); i++) {
-                Node node = nodeList.item(i);
-                if (node.getNodeType() == Node.ELEMENT_NODE) {
-                    Element element = (Element) node;
-
-                    NodeList xmlChilderenNodes = element.getChildNodes();
-                    getNodeNameInfo(xmlChilderenNodes);
-                }
-            }
-        } catch (ParserConfigurationException | SAXException | IOException ex) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
-
     /**
      * Method to search for specific Node by text in one of it's elements.
      *
@@ -164,11 +171,11 @@ public class ReadXML {
                         if (!(getNodeByTagText(xmlChilderenNodes, tagText))) {
                             node.getParentNode().removeChild(node);
                         }
-                        
+
                     }
 
                 }
-                getAllNodeListElements (nodeList);
+                getAllNodeListElements(nodeList);
             } catch (ParserConfigurationException | SAXException | IOException ex) {
                 Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
             }
@@ -194,9 +201,9 @@ public class ReadXML {
             if (n.getNodeType() == Node.ELEMENT_NODE) {
                 Element name = (Element) n;
                 //check if wanted text exists in the element
-                LOG.log(Level.INFO, "Tag content: {0}",name.getTextContent());
+                //LOG.log(Level.INFO, "Tag content: {0}",name.getTextContent());
                 if (name.getTextContent().equals(tagText)) {
-                    LOG.log (Level.INFO, "Text {0} found in node {1}",new Object[] {tagText,name.getTextContent()});
+                    LOG.log(Level.INFO, "Text {0} found in node {1}", new Object[]{tagText, name.getTextContent()});
                     textExists = true;
                 }
             }
@@ -218,11 +225,10 @@ public class ReadXML {
                 NodeList xmlChilderenNodes = element.getChildNodes();
                 for (int j = 0; j < xmlChilderenNodes.getLength(); j++) {
 
-                    Node phoneNode = xmlChilderenNodes.item(i);
-                    if (phoneNode.getNodeType() == Node.ELEMENT_NODE) {
-                        Element elementPhone = (Element) phoneNode;
-                        System.out.println(elementPhone.getNodeName() + ": " + elementPhone.getTextContent());
-                    }
+                    Node phoneNode = xmlChilderenNodes.item(j);
+                    if (phoneNode.getNodeType() == Node.ELEMENT_NODE)
+                    System.out.println(phoneNode.getNodeName() + ": " + phoneNode.getTextContent());
+
                 }
             }
 
