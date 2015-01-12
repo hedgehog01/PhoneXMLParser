@@ -87,6 +87,67 @@ Gull Mexico
 		<HelpTagBluetooth>BT_ttl_act01,BT_MTK_act01,BT_ttl_visibility01,BT_visMTK_01,BT_ttl_name01,BT_MTK_name01</HelpTagBluetooth>
 		<HelpTagFailure>MTK_Title01,MTK_01,MTK_04,Gen_fail_01,HelpTagFailure_default_01,HelpTagFailure_default_02,HelpTagFailure_default_03</HelpTagFailure>
 </PHONE>
+<PHONE> 
+Gull Mexico
+		<Date>20.07.2010</Date>
+		<Auto_PK>1</Auto_PK>
+		<Guid name="Name 2">578e0e0a-b5fc-4052-926a-ab0afd732a26</Guid>
+		<ShowIn>3</ShowIn>
+		<MemoryType>PP,PSR,PEW,MP,MMR</MemoryType>
+		<Name>Name 2</Name>
+		<USBName>80</USBName>
+		<USB>USBChannel.dll</USB>
+		<BlueTooth>BTChannel.dll</BlueTooth>
+		<MaxNameLen>26</MaxNameLen>
+		<NumTypes>M,H,W,F</NumTypes>
+		<MultipleNumbers>0</MultipleNumbers>
+		<RemoveCharsFromName>;\</RemoveCharsFromName>
+		<ExtFields>E,C</ExtFields>
+		<MultipleExtFields>0</MultipleExtFields>
+		<ATCmdNumTypeWrite>M</ATCmdNumTypeWrite>
+		<Implementator>PBAlcatel.dll</Implementator>
+		<PBModuleClass>MTK6225</PBModuleClass>
+		<SmsImpl>SMS_GSM.dll</SmsImpl>
+		<SMSModuleClass>MTK6227</SMSModuleClass>
+        <SMSWstatus>1</SMSWstatus>
+        <SMS_EnableSmsDeliverWrite>1</SMS_EnableSmsDeliverWrite>
+        <SMSDefaultStatusFromType>1</SMSDefaultStatusFromType>
+		<MeImpl>MMAlcatel.dll</MeImpl>
+		<MM_FolderList>
+		{TYPE=TARGET, IMAGE=Photos, RINGTONE=Audio, AUDIO=Audio, VIDEO=Videos} 
+		</MM_FolderList>
+		<MM_MCFolderList>
+		{TYPE=TARGET, IMAGE=Photos, RINGTONE=Audio, AUDIO=Audio, VIDEO=Videos} 
+		</MM_MCFolderList>
+		<MM_ImgReadFmtsSupp>*.jpg *.gif *.bmp *.png</MM_ImgReadFmtsSupp>
+		<MM_AudReadFmtsSupp>*.wav *.mp3 *.amr *.aac *.qcp</MM_AudReadFmtsSupp>
+		<MM_RngReadFmtsSupp>*.mid *.midi *.xmf *.rmf *.mmf *.dls *.imy *.emy *.rmid</MM_RngReadFmtsSupp>
+		<MM_VidReadFmtsSupp>*.mp4 *.3gp *.3g2 *.avi</MM_VidReadFmtsSupp>
+        <MM_ImgWriteFmtsSupp>*.jpg *.gif *.bmp *.png</MM_ImgWriteFmtsSupp>
+		<MM_RngWriteFmtsSupp>*.mid *.midi *.imy</MM_RngWriteFmtsSupp>
+		<MM_AudWriteFmtsSupp>*.mp3 *.wav *.amr *.aac</MM_AudWriteFmtsSupp>
+		<MM_VidWriteFmtsSupp>*.mp4 *.3gp *.3g2 *.avi</MM_VidWriteFmtsSupp>
+		<MM_Constraints>
+		{Format=JPG, MaxX=640, MaxY=480, ForcedConvert=1}
+		{Format=3GPP_H263, Support=1, MaxX=176, MaxY=144, Audio=ANY_AUDIO}
+		{Format=3GPP_MP4, Support=1, MaxX=176, MaxY=144, Audio=ANY_AUDIO}
+		{Format=3GPP2_H263, Support=1, MaxX=176, MaxY=144, Audio=AMR;AAC}
+		{Format=3GPP2_MP4, Support=1, MaxX=176, MaxY=144, Audio=AMR;AAC}
+		{Format=MP4,   Support=1, MaxX=176, MaxY=144, Audio=ANY_AUDIO}
+		</MM_Constraints>
+		<MM_UsbReadSpeed>30</MM_UsbReadSpeed>
+		<MM_UsbWriteSpeed>30</MM_UsbWriteSpeed>
+		<MM_BluetoothReadSpeed>5</MM_BluetoothReadSpeed>
+		<MM_BluetoothWriteSpeed>4</MM_BluetoothWriteSpeed>
+		<ExtraInfoImpl>EI_GSM.dll</ExtraInfoImpl>
+		<MemTable>LD</MemTable>
+		<Enable0707GSM>1</Enable0707GSM>
+		<EITypes>CLOG:R</EITypes>
+		<ResetOnConnect>0</ResetOnConnect>
+		<HelpTagGeneral>MTK_Title01,MTK_01,MTK_04</HelpTagGeneral>
+		<HelpTagBluetooth>BT_ttl_act01,BT_MTK_act01,BT_ttl_visibility01,BT_visMTK_01,BT_ttl_name01,BT_MTK_name01</HelpTagBluetooth>
+		<HelpTagFailure>MTK_Title01,MTK_01,MTK_04,Gen_fail_01,HelpTagFailure_default_01,HelpTagFailure_default_02,HelpTagFailure_default_03</HelpTagFailure>
+</PHONE>
 
 
 </dataroot>
