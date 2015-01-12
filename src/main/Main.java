@@ -20,7 +20,8 @@ public class Main {
         //ReadXML.readXMLByName("test.xml", "PHONE");
         //WriteXML.writeXMLByName("phonetest.xml", "dataroot", "Phone");
         //WriteXML.updateXMLNodeElement("test.xml", "Name", "ZMKN110Z", "new Name","");
-        ReadXML.getAllXMLTagTextByName("test.xml","PHONE", "Name");
-        ReadXML.getAllXMLTagTextByName("test.xml","PHONE", "Guid");
+        //ReadXML.getAllXMLTagTextByName("test.xml","PHONE", "Name");
+        //ReadXML.getAllXMLTagTextByName("test.xml","PHONE", "Guid");
+        ReadXML.getAllNodeElements("test.xml", "PHONE", "BTChannel");
     }
 }
